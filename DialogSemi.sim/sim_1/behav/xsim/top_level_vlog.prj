@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DialogSemi.srcs/sources_1/new/counter_14bits.v" \
+"../../../../DialogSemi.srcs/sources_1/new/top_level.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
